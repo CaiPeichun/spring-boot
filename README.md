@@ -3,6 +3,7 @@
   spring boot使你能快速跑起来spring的应用程序，因为它默认了许多框架的使用方式，使你不用再费时费力去纠结于框架的配置。
 ## 二、搭建一个简单spring boot
 ### 1、基本结构
+![img](https://raw.githubusercontent.com/CaiPeichun/spring-boot/master/springboot%E5%B7%A5%E7%A8%8B%E7%BB%93%E6%9E%84.png)
 - SpringbootApplication： 一个带有 main() 方法的类，用于启动应用程序
 - SpringbootApplicationTests：一个空的 Junit 测试了，它加载了一个使用 Spring Boot 字典配置功能的 Spring 应用程序上下文
 - application.properties：一个空的 properties 文件，可以根据需要添加配置属性
