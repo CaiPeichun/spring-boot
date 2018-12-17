@@ -116,7 +116,7 @@ spring:
       indent-output: true
 
 ```
-step3：写实体类
-step4：写dao类，继承JpaRepository
-step5：写controller，进行数据库的增加操作
-step6：启动spring boot并访问
+- step3：写实体类
+- step4：写dao类，继承JpaRepository
+- step5：写controller，进行数据库的增加操作
+- step6：启动spring boot并访问
