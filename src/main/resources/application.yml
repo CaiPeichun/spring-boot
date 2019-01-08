@@ -13,6 +13,12 @@ content: "name:${name2},age:${age2}"
 student: 
   name3: caipch
   age3: 22
+  
+swagger:
+  basePackage: com.pc.springbootdemo.controller
+  title: caipch
+  description: swagger
+  version: V1.0
 
 spring:
   mvc:
@@ -27,9 +33,11 @@ spring:
     username: scott
     password: tiger
   jpa:
+    database-platform: org.hibernate.dialect.OracleDialect
     hibernate:
       ddl-auto: update
     show-sql: true
   jackson:
     serialization:
       indent-output: true
+
